@@ -150,6 +150,6 @@ supAdmin@gmail.com
 
 Password:
 
-Muaz@2024
+nasir@1511
 
 If you like My project please leave a star ❤
