@@ -126,9 +126,8 @@ Follow these instructions to set up and run the project locally on your Machine.
 ## Installation
 1. Clone the repository:
    
-   git clone https://github.com/mua1z/Organization_membership_managment_system.git
-   
-  cd Organization_membership_managment_system
+   git clone https://github.com/nasiramme1511/organization-membership-system.git
+   cd organization-membership-system
   
 composer install
 
@@ -142,14 +141,10 @@ php artisan migrate:fresh --seed
 
 php artisan serve
 
-## Admin Credentials
+## Initial Setup & Administrator Account
 
-SupperAdmin Email:
+After database migration and seeding (), administrative accounts are defined in .
 
-supAdmin@gmail.com
-
-Password:
-
-nasir@1511
+> **Security Note:** In production, customize credentials via  or create administrators using .
 
 If you like My project please leave a star ❤
