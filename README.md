@@ -143,8 +143,8 @@ php artisan serve
 
 ## Initial Setup & Administrator Account
 
-After database migration and seeding (), administrative accounts are defined in .
+After database migration and seeding (`php artisan migrate:fresh --seed`), initial administrative accounts can be configured in `database/seeders/DatabaseSeeder.php`.
 
-> **Security Note:** In production, customize credentials via  or create administrators using .
+> **Security Note:** In production, configure all credentials securely via `.env` or provision users via `php artisan tinker`.
 
 If you like My project please leave a star ❤
